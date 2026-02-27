@@ -18,7 +18,7 @@ public class FindWebElementsVsFindWebElements {
         WebDriver.Navigation nav=driver.navigate();
         nav.to("https://www.knowledgeware.in/final.html");
 
-        WebElement usernameelement=driver.findElement(By.xpath("//input[@type='text']"));
+            WebElement usernameelement=driver.findElement(By.xpath("//input[@type='text']"));
 
 //        usernameelement.sendKeys("mahesh aher");
 
